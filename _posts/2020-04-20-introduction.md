@@ -9,7 +9,7 @@ title: Title of the paper
 
 -----
 
-## Audio Samples
+## Audio Samples in Doubletalk Scenario
 
 ### Evaluation samples
 Evaluation audio samples here
