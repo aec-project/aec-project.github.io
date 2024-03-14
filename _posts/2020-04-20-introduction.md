@@ -14,7 +14,7 @@ title: Title of the paper
 ### Evaluation samples
 Evaluation audio samples here
 
-|   |Microphone   |Far-end speech   |Near-end speech   |Baseline #1   |Baseline #2   |Proposed   |
+|   |Microphone   |Far-end speech   |Ground-truth   |DTLN   |NKF-AEC  |Proposed   |
 |---|---|---|---|---|---|---|
 |Sample 1   |   |   |   |   |   |   |
 |Sample 2   |   |   |   |   |   |   |
@@ -24,7 +24,7 @@ Evaluation audio samples here
 ### Blind test set from AEC Challenge
 Blind test set audio samples here
 
-|   |Microphone   |Far-end speech   |Baseline #1   |Baseline #2   |Proposed   |
+|   |Microphone   |Far-end speech   |DTLN   |NKF-AEC  |Proposed   |
 |---|---|---|---|---|---|
 |Sample 1   |   |   |   |   |   |
 |Sample 2   |   |   |   |   |   |
