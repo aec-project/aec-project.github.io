@@ -17,7 +17,7 @@ Synthetic test set DoubleTalk
 <table>
   <thead>
     <tr>
-      <th> </th>
+      <th>Sample</th>
       <th>Microphone</th>
       <th>Far-end speech</th>
       <th>Ground-Truth</th>
@@ -40,16 +40,16 @@ Synthetic test set DoubleTalk
       <td>Sample 2</td>
       <td><audio controls  src="samples/mic_syn_real_ser_-6db_00127.wav"> </audio></td>
       <td><audio controls  src="samples/farend_syn_00127.wav"> </audio></td>
-      <td><audio controls  src="samples/nearend_real_00127_None_20dB.wav"> </audio></td>
+      <td><audio controls  src="samples/nearend_real_ser_-6db_00127.wav"> </audio></td>
       <td><audio controls  src="samples/dtln_syn_real_00127_None_20dB.wav"> </audio></td>
       <td><audio controls  src="samples/ftlstm_syn_real_00127_None_20dB.wav"> </audio></td>
       <td><audio controls  src="samples/ours_syn_real_00127_None_20dB.wav"> </audio></td>
       </tr>
     <tr>
       <td>Sample 3</td>
-      <td><audio controls  src="samples/ mic_syn_real_ser_-6db_00321.wav"> </audio></td>
+      <td><audio controls  src="samples/mic_syn_real_ser_-6db_00321.wav"> </audio></td>
       <td><audio controls  src="samples/farend_real_00321.wav"> </audio></td>
-      <td><audio controls  src="samples/nearend_real_00321_None_10dB.wav"> </audio></td>
+      <td><audio controls  src="samples/nearend_real_ser_-6db_00321.wav"> </audio></td>
       <td><audio controls  src="samples/dtln_syn_real_00321_None_10dB.wav"> </audio></td>
       <td><audio controls  src="samples/ftlstm_syn_real_00321_None_10dB.wav"> </audio></td>
       <td><audio controls  src="samples/ours_syn_real_00321_None_10dB.wav"> </audio></td>
@@ -58,7 +58,7 @@ Synthetic test set DoubleTalk
       <td>Sample 4</td>
       <td><audio controls  src="samples/mic_syn_white_ser_-6db_00171.wav"> </audio></td>
       <td><audio controls  src="samples/farend_syn_00171.wav"> </audio></td>
-      <td><audio controls  src="samples/nearend_white_00171_white_20dB.wav"> </audio></td>
+      <td><audio controls  src="samples/nearend_white_ser_-6db_00171.wav"> </audio></td>
       <td><audio controls  src="samples/dtln_syn_white_00171_white_20dB.wav"> </audio></td>
       <td><audio controls  src="samples/ftlstm_syn_white_00171_white_20dB.wav"> </audio></td>
       <td><audio controls  src="samples/ours_syn_white_00171_white_20dB.wav"> </audio></td>
