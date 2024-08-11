@@ -1,11 +1,16 @@
 ---
 layout: home
-title: Title of the paper
+title: Dual-Branch Guidance Encoder for Robust Acoustic Echo Cancellation
 ---
 
 ## Abstract
-
--- Abstract part --
+For efficient real-time speech communication, it is crucial to design a robust acoustic echo cancellation (AEC) system that can effectively mitigate echo signals, which degrade speech quality during conversations. 
+However, many existing AEC algorithms struggle to balance the trade-off between effective echo suppression and preserving the quality of near-end speech across diverse scenarios. 
+To address these challenges, we propose a dual-branch guidance (DBG) encoder within a neural AEC network, specifically designed to enhance the capture of echo components.
+Inspired by the relationship between input signals, our approach employs a guidance map to generate a latent mask that highlights echo-related regions.
+By partially computing a separative latent mask in the latent domain of the microphone feature, this method effectively discriminates echo components while accounting for the presence of near-end speech components, ultimately guiding the network in estimating the final mask, which suppresses the echo.
+Additionally, we introduce the far-end speech processing and state learning modules to generate reliable guidance maps, thereby enhancing adaptability across various scenarios and distortions, including time-variant delays.
+Experimental results under various environmental distortions demonstrate that the AEC module of our proposed encoder effectively manages trade-offs, achieving state-of-the-art AEC performance while operating in real-time.
 
 -----
 
